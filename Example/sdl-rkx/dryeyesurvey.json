@@ -1,0 +1,125 @@
+{
+   "YADL":{
+      "full":{
+         "identifier":"Dry Eye Full Identifier",
+         "prompt":"How often has this situation been bothering your eyes today?",
+         "summary":{
+            "identifier":"YADL Full Summary Identifier",
+            "title":"Thanks",
+            "text":"Thank you for participating in the YADL Full Assessment"
+         },
+         "choices":[
+            {
+               "text":"Always",
+               "value":"4",
+               "color":"#CB213D"
+            },
+            {
+               "text":"Most",
+               "value":"3",
+               "color":"#F38630"
+            },
+            {
+               "text":"Half",
+               "value":"2",
+               "color":"#E0E4CC"
+            },
+            {
+                "text":"Some",
+                "value":"1",
+                "color":"#69D2E7"
+            },
+            {
+                "text":"Never",
+                "value":"0",
+                "color":"#36648B"
+            }
+         ]
+      },
+      "spot":{
+         "identifier":"YADL Spot Identifier",
+         "prompt":"Which situations have been bothering you today?",
+         "summary":{
+            "identifier":"YADL Spot Summary Identifier",
+            "title":"Thanks",
+            "text":"Thank you for participating in the YADL Spot Assessment"
+         },
+         "noItemsSummary":{
+            "identifier":"YADL Spot No Activities Summary Identifier",
+            "title":"Thanks",
+            "text":"You have no activities to measure"
+         },
+         "options":{
+            "somethingSelectedButtonColor":"#0080ff",
+            "nothingSelectedButtonColor":"#FCC103",
+            "itemCellSelectedColor":"#7FEE7D",
+            "itemCellSelectedOverlayImageTitle":"first_tab",
+            "itemCollectionViewBackgroundColor":"#E9E9E9",
+            "itemsPerRow":3,
+            "itemMinSpacing":10.0
+         }
+      },
+      "activities":[
+         {
+            "imageTitle":"AirConditioned",
+            "description":"Being in a Room with Air Conditioning",
+            "identifier":"AirConditioned"
+         },
+         {
+            "imageTitle":"BlurryVision",
+            "description":"Blurry Vision",
+            "identifier":"BlurryVision"
+         },
+         {
+            "imageTitle":"Computer",
+            "description":"Using a Computer",
+            "identifier":"Computer"
+         },
+         {
+            "imageTitle":"EyePain",
+            "description":"Painful or sore eyes",
+            "identifier":"EyePain"
+         },
+         {
+            "imageTitle":"Gritty",
+            "description":"Eyes that Feel Gritty",
+            "identifier":"Gritty"
+         },
+         {
+            "imageTitle":"LightSensitivity",
+            "description":"Being Sensitive to Light",
+            "identifier":"LightSensitivity"
+         },
+         {
+            "imageTitle":"LowHumidity",
+            "description":"Low Humidity",
+            "identifier":"LowHumidity"
+         },
+         {
+            "imageTitle":"NightDriving",
+            "description":"Driving at Night",
+            "identifier":"NightDriving"
+         },
+         {
+            "imageTitle":"PoorVision",
+            "description":"Poor Vision",
+            "identifier":"PoorVision"
+         },
+         {
+            "imageTitle":"Reading",
+            "description":"Reading",
+            "identifier":"Reading"
+         },
+         {
+            "imageTitle":"TV",
+            "description":"Watching TV",
+            "identifier":"TV"
+         },
+         {
+            "imageTitle":"Windy",
+            "description":"Being Outside on a Windy Day",
+            "identifier":"Windy"
+         }
+      ]
+   }
+}
