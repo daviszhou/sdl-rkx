@@ -157,6 +157,13 @@ class ViewController: UIViewController, ORKTaskViewControllerDelegate {
         
         self.launchAssessmentForTask(task)
     }
+    @IBAction func launchDryEyeFullAssessment(sender: AnyObject) {
+        
+        //create a YADL dry eye full assessment task
+        let task = YADLFullAssessmentTask(identifier: "Dry Eye Full Assessment Identifier", propertiesFileName: "dryeyesurvey")
+        
+        self.launchAssessmentForTask(task)
+    }
     
 }
 
